@@ -1,4 +1,4 @@
-FROM php:5.4-apache
+FROM php:7.3-apache
 
 # Dev tools
 RUN apt-get update && apt-get install -y mc nano git vim bash-completion telnet libssl-dev && rm -r /var/lib/apt/lists/*

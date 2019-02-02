@@ -1,3 +1,3 @@
 <?php
 
-echo 'App web site';
+phpinfo();
