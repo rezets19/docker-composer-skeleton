@@ -7,3 +7,8 @@
 
 ## Run
 ```docker/scripts/[OS dependant]/docker-start.[OS dependant]```
+
+## Test
+ Web: http://127.0.0.1:8080 \
+ Shell: ```docker/scripts/[OS dependant]/ssh.[OS dependant]```
+ 
