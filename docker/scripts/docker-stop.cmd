@@ -1,3 +1,6 @@
+:: Stop script
 
-docker-compose -p app kill
-docker-compose -p app rm
+SET containers_prefix=app
+
+::docker-compose -p %containers_prefix% kill
+docker-compose -p %containers_prefix% rm -f -s
